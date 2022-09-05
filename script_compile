@@ -1,0 +1,27 @@
+#!/bin/bash
+mpic++ -O2 -o exectuable_program -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+
+mpic++ -std=c++17 -O2 -o exectuable_program -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+
+
+mpic++ -std=c++17 -D_GLIBCXX_PARALLEL -O2 -o exectuable_program -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+
+-D_GLIBCXX_PARALLEL
+
+
+mpic++ -ggdb3 -std=c++17 -O2 -o exectuable_program -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+
+
+
+
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/exectuable_program -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+
+
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/static_compilation/exectuable_program_static -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/exectuable_program_guided -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/exectuable_program_dynamic_1 -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/exectuable_program_dynamic_20 -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/exectuable_program_dynamic_100 -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
+
+
+mpic++ -O2 -o /home/sergiomc/code/load-balancing-knn/load-balancing-knn/load-balancing-knn/exectuable_program -fopenmp load-balancing-knn.cpp  container_matrix_confusion.cpp knn_classify_horizontal.cpp knn_classify_vertical.cpp matrix_confusion.cpp matrix_confusion_mpi.cpp container_matrix_confusion_mpi.cpp mpi_flow.cpp mpi_type_0.cpp mpi_type_1.cpp mpi_type_2.cpp
